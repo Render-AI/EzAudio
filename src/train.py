@@ -291,7 +291,8 @@ if __name__ == '__main__':
                     target = velocity
 
                 # inference
-                pred, mask = unet(noisy_target, timesteps, text, context_mask=text_mask, cls_token=None, 
+                pred, mask = unet(noisy_target, timesteps, text, 
+                                  context_mask=text_mask, cls_token=None, 
                                   gt=audio_clip)
 
                 # backward
