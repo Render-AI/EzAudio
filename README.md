@@ -56,11 +56,11 @@ sf.write(f'{prompt}_edit.wav', audio, sr)
 
 ## Training
 
-- Autoencoder  
-See the VAE training section: https://github.com/WangHelin1997/SoloAudio
+- **Autoencoder**  
+Refer to the VAE training section: https://github.com/WangHelin1997/SoloAudio
 
-- DiT
-Prepare Your Data: see example format in: `src/dataset/meta_example.csv`
+- **DiT**  
+Prepare your data (see example format in `src/dataset/meta_example.csv`):
 
 ```bash
 cd src
