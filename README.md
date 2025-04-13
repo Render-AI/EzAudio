@@ -60,6 +60,7 @@ sf.write(f'{prompt}_edit.wav', audio, sr)
 See the VAE training section: https://github.com/WangHelin1997/SoloAudio
 
 - EzAudio
+
 Prepare Your Data: see example format in: `src/dataset/meta_example.csv`
 
 ```bash
