@@ -54,6 +54,17 @@ sr, audio = ezaudio.editing_audio(prompt, boundary=2, gt_file=original_audio,
 sf.write(f'{prompt}_edit.wav', audio, sr)
 ```
 
+## Training
+
+- Autoencoder  
+See the VAE training section: https://github.com/WangHelin1997/SoloAudio
+
+- EzAudio  
+```bash
+cd src
+accelerate launch train.py
+
+
 ## Todo
 - [x] Release Gradio Demo along with checkpoints [EzAudio Space](https://huggingface.co/spaces/OpenSound/EzAudio)
 - [x] Release ControlNet Demo along with checkpoints [EzAudio ControlNet Space](https://huggingface.co/spaces/OpenSound/EzAudio-ControlNet)
