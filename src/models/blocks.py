@@ -160,7 +160,6 @@ class DiTBlock(nn.Module):
         return x
 
 
-
 class FinalBlock(nn.Module):
     def __init__(self, embed_dim, patch_size, in_chans,
                  img_size,
