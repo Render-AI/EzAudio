@@ -59,8 +59,7 @@ sf.write(f'{prompt}_edit.wav', audio, sr)
 - Autoencoder  
 See the VAE training section: https://github.com/WangHelin1997/SoloAudio
 
-- EzAudio
-
+- DiT
 Prepare Your Data: see example format in: `src/dataset/meta_example.csv`
 
 ```bash
