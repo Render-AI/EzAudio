@@ -27,7 +27,7 @@ def parse_args():
     parser = argparse.ArgumentParser()
 
     # Config settings
-    parser.add_argument('--config-name', type=str, default='config_ft/udit_h_mae.yml')
+    parser.add_argument('--config-name', type=str, default='config/ezaudio-l.yml')
 
     # Training settings
     parser.add_argument("--amp", type=str, default='fp16')
